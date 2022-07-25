@@ -1,0 +1,18 @@
+{
+  "name": "Mango Markets Access Extension",
+  "version": "1.0",
+  "description": "Helps access Mango Markets when you are on international airplane WiFi.",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://trade.mango.markets/*",
+    "https://country-code.mangomarkets.workers.dev/*"
+  ],
+  "background": {
+    "scripts": [
+      "mango.js"
+    ],
+    "persistent": true
+  }
+}
