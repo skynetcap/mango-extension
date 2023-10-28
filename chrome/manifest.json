@@ -6,6 +6,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
+	"https://app.mango.markets/*",
     "https://trade.mango.markets/*",
     "https://country-code.mangomarkets.workers.dev/*"
   ],
