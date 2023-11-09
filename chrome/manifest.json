@@ -1,7 +1,7 @@
 {
   "name": "Mango Markets Access Extension",
   "version": "1.0",
-  "description": "Helps access Mango Markets when you are on international airplane WiFi.",
+  "description": "Bypasses the geo-blocking on Mango Markets.",
   "manifest_version": 2,
   "permissions": [
     "webRequest",
